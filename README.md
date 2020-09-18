@@ -11,11 +11,11 @@ test_all_sort.sh
 
 ## other
 #### Clang
-README.md
-advance_algorithm
-basic_algorithm
-graph_algorithm
-pattern_match_algorithm
-search_algorithm
-sort_algorithm
-tree_algorithm
+README.md  
+advance_algorithm  
+basic_algorithm  
+graph_algorithm  
+pattern_match_algorithm  
+search_algorithm  
+sort_algorithm  
+tree_algorithm  
