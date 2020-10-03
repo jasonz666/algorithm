@@ -5,7 +5,7 @@ void quick(int data[], int left, int right){
     int i, j, base, tmp;
 
     //只有一个数据时即为有序的
-    if (left > right)
+    if (left >= right)
         return;
 
     base = data[left];
@@ -34,7 +34,6 @@ void quick(int data[], int left, int right){
     
     //递归的处理左右子序列
     quick(data, left, i - 1);
-    //只有一个数据时子序列会出现left>right
     quick(data, i + 1, right);
 }
 
